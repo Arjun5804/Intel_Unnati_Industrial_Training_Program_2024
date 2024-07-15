@@ -1,7 +1,7 @@
 # Intel_Unnati_Industrial_Training_Program_2024
 <h1>Intel Products Sentiment Analysis from Online Reviews</h1>
 
-<p>This project involves the sentiment analysis of Intel product reviews using a combination of machine learning and deep learning models. The primary focus is on reviews from e-commerce platforms such as Amazon and Flipkart.</p>
+<p>This project involves the sentiment analysis of Intel product reviews using a combination of machine learning, deep learning and LLM models. The primary focus is on reviews from e-commerce platforms such as Amazon and Flipkart.</p>
 
 <h2>Table of Contents</h2>
 <ul>
@@ -52,8 +52,8 @@
 
 <h2 id="installation">Installation</h2>
 <p>To get started, clone the repository and install the required dependencies:</p>
-<pre><code>git clone https://github.com/Arjun5804/Intel_Unnati_Industrial_Training_Program_2024.git
-cd Intel_Unnati_Industrial_Training_Program_2024
+<pre><code>git clone https://github.com/Arjun5804/Intel_Unnati_Industrial_Training_Program_2024_Team_Techtonics.git
+cd Intel_Unnati_Industrial_Training_Program_2024_Team_Techtonics
 pip install -r requirements.txt</code></pre>
 
 <h2 id="usage">Usage</h2>
