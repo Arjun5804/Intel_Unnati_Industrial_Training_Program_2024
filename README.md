@@ -7,6 +7,7 @@
 <ul>
   <li><a href="#project-overview">Project Overview</a></li>
   <li><a href="#folder-structure">Folder Structure</a></li>
+  <li><a href="#project-flow">Project Flow</a></li>
   <li><a href="#installation">Installation</a></li>
   <li><a href="#usage">Usage</a></li>
   <li><a href="#results">Results</a></li>
@@ -45,37 +46,42 @@
   <li><strong>Project PPT</strong>: Project presentation slides.</li>
 </ul>
 
+<h2 id="project-flow">Project Flow</h2>
+<p>Below is the project flow diagram that illustrates the process:</p>
+<img src="Project flow.png" alt="Project Flow Diagram" />
+
 <h2 id="installation">Installation</h2>
 <p>To get started, clone the repository and install the required dependencies:</p>
-<pre><code>git clone https://github.com/yourusername/intel-sentiment-analysis.git
-cd intel-sentiment-analysis
+<pre><code>git clone https://github.com/Arjun5804/Intel_Unnati_Industrial_Training_Program_2024.git
+cd Intel_Unnati_Industrial_Training_Program_2024
 pip install -r requirements.txt</code></pre>
 
 <h2 id="usage">Usage</h2>
 
 <h3>Scraping Data</h3>
-<p>Run the scrapers in the <code>Scrapper</code> folder to fetch the latest reviews.</p>
+<p>Run the scrapers in the <code>Scrapper</code> folder to fetch the latest reviews. Update the URLs if required(only amazon or flipkart)</p>
 
 <h3>Data Preparation and EDA</h3>
-<p>Use the notebooks in the <code>EDA</code> folder for exploratory data analysis and data preparation steps.</p>
+<p>Use the notebook: <code>Exploratory_Data_Analysis</code> folder for exploratory data analysis and data preparation steps.</p>
 
 <h3>Training ML Models</h3>
-<p>Use the code files in the <code>Code files</code> folder to train various machine learning models.</p>
+<p>Use the code files in the <code>Code files</code> folder to train various machine learning models. Check out the ipynb files for LazyClassifier and Data cleaning and preprocessing</p>
 
-<h3>Training DL Models</h3>
-<p>Use the notebooks in the <code>Colab Notebooks for DL and LLM</code> folder to train deep learning models and the fine-tuned Llama 3 model.</p>
+<h3>Training DL  and LLM Models</h3>
+<p>Use the notebooks in the <code>Colab Notebooks for DL and LLM</code> folder to train deep learning models and the fine-tuned Llama 3 8B model.</p>
 
 <h3>Testing</h3>
-<p>Run the models on the test datasets provided in the <code>Train and Test data files</code> folder to evaluate their performance.</p>
+<p>Run the models on the test datasets provided in the <code>Train and Test data files</code> folder to evaluate their performance. Codes in all the folders are already tested and are error free(except for codes of Mistral model)</p>
 
 <h2 id="results">Results</h2>
-<p>The results of the trained models, including performance metrics and visualizations, are documented in the <code>intel_final_report</code> and <code>Project PPT</code> folders.</p>
+<p>The results of the trained models, including performance metrics and visualizations, are documented in the <code>intel final report</code> and also in the different ipynb files present in the ML and Colab notebooks folders.</p>
 
 <h2 id="contributing">Contributing</h2>
 <p>Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.</p>
 
 <h2 id="license">License</h2>
 <p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
+
 
 
 
