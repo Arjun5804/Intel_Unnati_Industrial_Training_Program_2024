@@ -1,7 +1,7 @@
 # Intel_Unnati_Industrial_Training_Program_2024
 <h1>Intel Products Sentiment Analysis from Online Reviews</h1>
 
-<p>This project involves the sentiment analysis of Intel product reviews using a combination of machine learning, deep learning and LLM models. The primary focus is on reviews from e-commerce platforms such as Amazon and Flipkart.</p>
+<p>This project involves the sentiment analysis of Intel product reviews using a combination of machine learning, deep learning and LLM models. Since our team has chosen Category A reviews(user reviews), the primary focus is on reviews from e-commerce platforms such as Amazon and Flipkart. The products under scope of our project are Intel Core 12th, 13th and 14th generation Desktop processors that include the i3, i5, i7 and i9 categories.</p>
 
 <h2>Table of Contents</h2>
 <ul>
