@@ -1,0 +1,29 @@
+product_title:
+    css: '#container > div > div.VLIitu > div > div > div.DOjaWF.gdgoEp.col-9-12 > div.DOjaWF.gdgoEp.col-12-12 > div > div.cPHDOP.col-10-12 > div'
+    type: Text
+
+
+reviews:
+    css: 'div.col.EPCmJX.Ma1fCG'
+    multiple: true
+    type: Text
+    children:
+        rating:
+            css: 'div.XQDdHH.Ga3i8K'
+            type: Text
+        title:
+            css: 'p.z9E0IG'
+            type: Text 
+        content:
+            css: 'div.ZmyHeo > div > div'
+            type: Text  
+        date:
+            css: 'div.row.gHqwa8 > div.row > p._2NsDsF:not(.AwS1CA)'
+            type: Text
+        author:
+            css: 'p._2NsDsF.AwS1CA'
+            type: Text
+
+next_page:
+    css: '#container > div > div.VLIitu > div > div > div.DOjaWF.gdgoEp.col-9-12 > div:nth-child(13) > div > div > nav > a._9QVEpD'
+    type: Link

@@ -1,0 +1,37 @@
+product_title:
+    css: 'h1 a[data-hook="product-link"]'
+    type: Text
+
+reviews:
+    css: 'div.review div.a-section.celwidget'
+    multiple: true
+    type: Text
+    children:
+        title:
+            css: 'div.a-row:nth-child(2) > a > span:nth-child(3)'
+            type: Text 
+        alternative_title:
+            css: 'div.a-row.a-spacing-none > span.a-size-base.review-title.a-color-base.review-title-content.a-text-bold > span'
+            type: Text 
+        content:
+            css: 'div.a-row.review-data span.review-text'
+            type: Text  
+        date:
+            css: span.a-size-base.a-color-secondary
+            type: Text
+        author:
+            css: span.a-profile-name
+            type: Text
+        rating:
+            css: 'div.a-row > a > i > span'
+            type: Text 
+        alternative_rating:
+            css: 'div.a-row.a-spacing-none > i > span'
+            type: Text
+        country:
+            css: span.a-size-base.a-color-secondary
+            type: Text     
+
+next_page:
+    css: 'li.a-last a'
+    type: Link
