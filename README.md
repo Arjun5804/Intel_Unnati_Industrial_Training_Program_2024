@@ -48,7 +48,7 @@
 
 <h2 id="project-flow">Project Flow</h2>
 <p>Below is the project flow diagram that illustrates the process:</p>
-<img src="Project flow" alt="Project Flow Diagram" />
+<img src="Project flow.png" alt="Project Flow Diagram" />
 
 <h2 id="installation">Installation</h2>
 <p>To get started, clone the repository and install the required dependencies:</p>
